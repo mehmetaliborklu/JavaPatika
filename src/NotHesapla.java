@@ -6,6 +6,7 @@ public class NotHesapla {
         double mat, fiz, kim, tarih, trk, mzk;
 
         Scanner notlar = new Scanner(System.in);
+
         System.out.print("Lütfen Matematik notunuzu giriniz:");
         mat = notlar.nextDouble();
 
