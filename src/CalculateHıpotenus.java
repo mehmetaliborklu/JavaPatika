@@ -12,11 +12,7 @@ public class CalculateHıpotenus {
         Scanner input2 = new Scanner(System.in);
         int kenar2 = input2.nextInt();
 
-        System.out.print("Üçgenin 3. Kenar Uzunluğu:");
-        Scanner input3 = new Scanner(System.in);
-        int kenar3 = input3.nextInt();
-
-        int hipotenüs = (kenar1*kenar1) + (kenar2*kenar2) + (kenar3*kenar3);
+        double hipotenüs = Math.sqrt((kenar1*kenar1) + (kenar2*kenar2));
 
         System.out.println("Hipotenüs :"+ hipotenüs);
 
